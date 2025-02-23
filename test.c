@@ -15,6 +15,7 @@ int main(int argc, char const *argv[])
     printf("How old are you ? Can you ... \n"); // Right-pointing finger emoji (👉)
     printf("Enter your age: ");
     scanf("%d", &age);
+    
     if (age <= 10) // If the age is 9 or younger
     {
         puts(Movies16); // Show message for age 9 and below
